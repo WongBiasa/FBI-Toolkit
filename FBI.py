@@ -142,8 +142,8 @@ def hedy():
     print '[?]Terima Kasih Telah Menggunakan.!'
 
 def exit():
-  print '[*]Terimakasih telah menggunakan
-  print '[*]jika masih tidak mengerti atau ada kesalahan hubungi admin
+  print '[*]Terimakasih telah menggunakan'
+  print '[*]jika masih tidak mengerti atau ada kesalahan hubungi admin'
   sys.exit()
 	
 def clear():
