@@ -143,6 +143,7 @@ def hedy():
     print '[?]Perintah tidak diketahui'
     print '[?]Ketik "perintah" untuk mengetahui'
     print '[?]Jika tadak mengerti hubungi admin.!'
+    hedy()
 
 def exit():
   print '[*]Terimakasih telah menggunakan'
