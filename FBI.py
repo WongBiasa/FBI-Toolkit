@@ -133,19 +133,24 @@ def hedy():
   elif cek == 'buka_nomor':
      buka_nomor()
 
-  
+  elif cek == 'exit':
+	exit()
+	
   else:
     print '[?]Jika tidak mengerti hubungi admin'
     print 
     print '[?]Terima Kasih Telah Menggunakan.!'
 
-
-
+def exit():
+  print '[*]Terimakasih telah menggunakan
+  print '[*]jika masih tidak mengerti atau ada kesalahan hubungi admin
+  sys.exit()
+	
 def clear():
   print '[?]'
   try:
     print '[*]clear terminal'
-    os.sys('clear')
+    os.system('clear')
     hedy()
 
   except:
