@@ -135,11 +135,14 @@ def hedy():
 
   elif cek == 'exit':
 	exit()
+  
+  elif cek == 'perintah':
+	perintah()
 	
   else:
-    print '[?]Jika tidak mengerti hubungi admin'
-    print 
-    print '[?]Terima Kasih Telah Menggunakan.!'
+    print '[?]Perintah tidak diketahui'
+    print '[?]Ketik "perintah" untuk mengetahui'
+    print '[?]Jika tadak mengerti hubungi admin.!'
 
 def exit():
   print '[*]Terimakasih telah menggunakan'
